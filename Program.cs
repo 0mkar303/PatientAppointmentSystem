@@ -19,6 +19,11 @@ namespace PatientAppointmentSystem
 
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Welcome to HCA Healthcare Patient Appointment System");
+            Console.WriteLine("Current date: " + DateTime.Today.ToLongDateString());
+            Console.WriteLine();
+
             bool running = true;
             while (running)
             {
